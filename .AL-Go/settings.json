@@ -3,5 +3,12 @@
   "country": "us",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "enableCodeCop": true,
+  "enableUICop": true,
+  "customCodeCops": [
+    "${analyzerFolder}BusinessCentral.LinterCop.dll"
+  ],
+  "rulesetFile": "https://raw.githubusercontent.com/addmecode/al-settings/refs/heads/main/custom.ruleset.json",
+  "enableExternalRulesets": true
 }
