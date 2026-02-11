@@ -9,6 +9,6 @@
   "customCodeCops": [
     "${analyzerFolder}BusinessCentral.LinterCop.dll"
   ],
-  "rulesetFile": "https://raw.githubusercontent.com/addmecode/al-settings/refs/heads/main/custom.ruleset.json",
+  "rulesetFile": "./custom.ruleset.json",
   "enableExternalRulesets": true
 }
