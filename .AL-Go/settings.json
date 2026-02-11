@@ -9,6 +9,6 @@
   "customCodeCops": [
     "${analyzerFolder}BusinessCentral.LinterCop.dll"
   ],
-  "rulesetFile": ".AL-Go/custom.ruleset.json",
+  "rulesetFile": ".AL-Go/algo.ruleset.json",
   "enableExternalRulesets": true
 }
