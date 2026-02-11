@@ -9,11 +9,11 @@ pageextension 50122 "AMC CustomerListExt" extends "Customer List"
         Message('App published: Hello world. I am new here.');
     end;
 
-    [TryFunction]
-    local procedure TryTruncate()
-    var
-        Test: Record Customer;
-    begin
-        Test.Truncate();
-    end;
+    // [TryFunction]
+    // local procedure TryTruncate()
+    // var
+    //     Test: Record Customer;
+    // begin
+    //     Test.Truncate();
+    // end;
 }
