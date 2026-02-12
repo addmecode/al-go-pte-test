@@ -10,5 +10,8 @@
     "${analyzerFolder}BusinessCentral.LinterCop.dll"
   ],
   "rulesetFile": ".AL-Go/algo.ruleset.json",
-  "enableExternalRulesets": true
+  "enableExternalRulesets": true,
+  "alDoc": {
+    "continuousDeployment": true
+  }
 }
